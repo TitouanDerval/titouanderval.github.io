@@ -709,7 +709,6 @@ header .navbar-nav .nav-link:hover::after { width: 100%; }
 /* Les boutons secondaires passent au-dessus du lien étendu de la carte */
 .projet-cta:not(.stretched-link) { position: relative; z-index: 2; }
 
-
 /* ============================================================
    7. FENÊTRES (LIGHTBOX) — image, audio, galerie
    ============================================================ */
