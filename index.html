@@ -1,0 +1,657 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+    <head>
+        <title>Titouan Derval Portfolio | Étudiant BUT MMI</title>
+        <meta name="description" content="Portfolio de Titouan Derval"/>
+        <meta name="theme-color" content="#0e0e0e"/>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">        <link rel="stylesheet" href="style.css"/>
+    </head>
+
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-lg p-0" aria-label="Navigation principale">
+        <a class="navbar-brand" href="#accueil">TITOUAN DERVAL</a>
+
+        <!-- Bouton burger -->
+        <button class="navbar-toggler menu-toggle collapsed" type="button"
+                data-bs-toggle="collapse" data-bs-target="#mainNav"
+                aria-controls="mainNav" aria-expanded="false" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+
+        <!-- Liens -->
+        <div class="collapse navbar-collapse justify-content-lg-end" id="mainNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#accueil">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projets">Projets</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main id="contenu" tabindex="-1">
+
+<!------------- HERO -------------->
+
+<section id="accueil">
+    <video class="bg-video" id="heroVideo" autoplay muted loop playsinline aria-hidden="true">
+        <source src="videos/autoportraitbackground.mp4" type="video/mp4">
+    </video>
+
+    <div class="accueil-text">
+        <h1>TITOUAN<br>DERVAL</h1>
+        <p>Étudiant en création multimédia, orienté graphisme et audiovisuel.</p>
+        <a href="#projets" class="btn-hero">Voir mes Projets</a>
+    </div>
+
+    <button type="button" class="video-toggle" data-target="#heroVideo" aria-label="Mettre la vidéo d'arrière-plan en pause"><span aria-hidden="true">❚❚</span></button>
+</section>
+
+<!------------- À PROPOS -------------->
+
+<section id="about">
+
+    <div class="about-text">
+        <h2>À propos</h2>
+        <p>
+            Je m'appelle Titouan et je suis étudiant en B.U.T Métiers du Multimédia et de l'Internet.
+            <br/><br/>
+            Passionné par les univers visuels et artistiques, je m'intéresse particulièrement à la manière 
+            dont l'image peut traduire une émotion, construire une identité ou raconter une histoire. La musique, 
+            l'art contemporain, la photographie et le cinéma occupent une place importante dans mon quotidien et 
+            nourrissent ma sensibilité créative.
+            <br/><br/>
+            À travers mes projets, j'explore le graphisme et l'audiovisuel en cherchant à développer mon regard, 
+            expérimenter de nouvelles approches visuelles et construire progressivement mon propre univers.
+        </p>
+    </div>
+
+    <div class="about-photo">
+        <img src="images/pdp.jpg" alt="Portrait de Titouan Derval" loading="lazy">
+    </div>
+
+    <div class="about-formation">
+        <h3>Formation</h3>
+        <ul>
+            <li><strong>BUT MMI - IUT de Rouen, campus d'Elbeuf | Sep 2025 - Actuel</strong><br>
+            1re année - Création Numérique, Audiovisuel, Développement Web</li>
+            <li><strong>Baccalauréat - Lycée Georges Dumézil, Vernon | Sep 2022 - Juin 2025</strong><br>
+            Obtention du BAC : Arts Plastiques, AMC et NSI (Mention ASSEZ BIEN)</li>
+        </ul>
+        <hr>
+        <h3>Certifications</h3>
+        <ul>
+            <li><strong>BNSSA (Brevet National de Sécurité et de Sauvetage Aquatique)</strong><br>
+            OXYGENE FORMATION 75 | Jan 2025</li>
+            <li><strong>PSE1 (Premiers Secours en Équipe de Niveau 1)</strong><br>
+            OXYGENE FORMATION 75 | Oct 2024</li>
+        </ul>
+        <hr>
+        <h3>Expériences</h3>
+        <ul>
+            <li><strong>Surveillant de baignade (BNSSA)</strong><br>
+            Piscine Sideal | Pont-Saint-Pierre | Août 2025 & Août 2026</li>
+            <li><strong>Stage d'observation - CLEOR (Marketing et Communication)</strong><br>
+            EVREUX | Jan 2022</li>
+        </ul>
+    </div>
+
+    <div class="about-skills">
+        <h3>Compétences</h3>
+        <!-- Bootstrap : 3 colonnes (mobile), 4 (≥576px), 6 (≥768px) -->
+        <div class="row row-cols-3 row-cols-sm-4 row-cols-md-6 g-3">
+            <div class="col"><div class="skill h-100"><img src="icones/photoshop.svg" alt=""><span>Photoshop</span></div></div>
+            <div class="col"><div class="skill h-100"><img src="icones/illustrator.svg" alt=""><span>Illustrator</span></div></div>
+            <div class="col"><div class="skill h-100"><img src="icones/lightroom.svg" alt=""><span>Lightroom</span></div></div>
+            <div class="col"><div class="skill h-100"><img src="icones/premierepro.svg" alt=""><span>Premiere Pro</span></div></div>
+            <div class="col"><div class="skill h-100"><img src="icones/blender.svg" alt=""><span>Blender</span></div></div>
+            <div class="col"><div class="skill h-100"><img src="icones/audition.svg" alt=""><span>Audition</span></div></div>
+            <div class="col"><div class="skill h-100"><img src="icones/aterEffects.svg" alt=""><span>After Effects</span></div></div>
+            <div class="col"><div class="skill h-100"><img src="icones/figma.svg" alt=""><span>Figma</span></div></div>
+            <div class="col"><div class="skill h-100"><img src="icones/html.svg" alt=""><span>HTML</span></div></div>
+            <div class="col"><div class="skill h-100"><img src="icones/css.svg" alt=""><span>CSS</span></div></div>
+            <div class="col"><div class="skill h-100"><img src="icones/wordpress.svg" alt=""><span>WordPress</span></div></div>
+            <div class="col"><div class="skill h-100"><img src="icones/php.svg" alt=""><span>PHP</span></div></div>
+        </div>
+    </div>
+
+    <div class="about-interests">
+        <video id="interestsVideo" autoplay muted loop playsinline aria-label="Vidéo d'ambiance illustrant mes centres d'intérêt">
+            <source src="videos/video-Interets.mp4" type="video/mp4">
+        </video>
+        <button type="button" class="video-toggle" data-target="#interestsVideo" aria-label="Mettre la vidéo des centres d'intérêt en pause"><span aria-hidden="true">❚❚</span></button>
+    </div>
+
+</section>
+
+<!-- ================= PROJETS ================= -->
+
+<section id="projets">
+    <h2>Projets</h2>
+
+    <!-- ── 1. Design Graphique ── -->
+    <div class="cat-block" id="cat-design">
+        <h3 class="cat-heading">
+            <button type="button" class="cat-header" id="btn-cat-design" aria-expanded="false" aria-controls="panel-cat-design">
+                <span class="cat-title">Design Graphique</span>
+                <span class="cat-arrow" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
+                </svg>
+                </span>
+            </button>
+        </h3>
+        <div class="cat-panel" id="panel-cat-design" role="region" aria-labelledby="btn-cat-design">
+            <div class="cat-panel-inner">
+                <div class="carrousel-wrapper" role="region" aria-roledescription="carrousel" aria-label="Projets : Design Graphique">
+                    <div class="carrousel-track-outer">
+                        <div class="carrousel-track">
+                            <div class="projet-card">
+                                <img class="projet-thumb" src="images/graphicDesign.1chess.jpg" alt="" loading="lazy">
+                                <div class="projet-info">
+                                    <p class="projet-type">Affiche - 3D</p>
+                                    <h4 class="projet-title">Ashen Kingdom</h4>
+                                    <p class="projet-desc">Réalisée sur Blender et Photoshop, cette affiche présente un jeu 
+                                        d’échecs fictif inspiré de l’esthétique dark fantasy des années 2000. À travers la modélisation, les textures et l’éclairage, 
+                                        j’ai imaginé un univers médiéval sombre et mystérieux. Ce premier projet Blender m’a permis d’explorer les différentes facettes de la 3D.</p>
+                                    <button type="button" class="projet-cta stretched-link" aria-label="Voir – Ashen Kingdom" onclick="openGallery('Ashen Kingdom', [
+                                'images/graphicDesign.1chess.jpg',
+                                'images/graphicDesign.2chess.jpg',
+                                'images/graphicDesign.3chess.jpg',
+                                'images/graphicDesign.4chess.jpg',
+                            ])">Voir</button>
+                                </div>
+                            </div>
+
+                            <div class="projet-card">
+                                <img class="projet-thumb" src="images/graphicDesign.reborn.jpg" alt="" loading="lazy">
+                                <div class="projet-info">
+                                    <p class="projet-type">Affiche</p>
+                                    <h4 class="projet-title">Reborn</h4>
+                                    <p class="projet-desc">Réalisé sur Photoshop, ce visuel illustre l'évolution du cygne, passant d'un jeune oiseau discret à 
+                                        un cygne élégant et majestueux. La lumière renforce l'idée de renaissance et met en valeur le sujet principal.</p>
+                                    <button type="button" class="projet-cta stretched-link" aria-label="Voir – Reborn" onclick="openImg('images/graphicDesign.reborn.jpg','Reborn')">Voir</button>
+                                </div>
+                            </div>
+
+                            <div class="projet-card">
+                                <img class="projet-thumb" src="images/graphicDesign.thor.jpg" alt="" loading="lazy">
+                                <div class="projet-info">
+                                    <p class="projet-type">Affiche</p>
+                                    <h4 class="projet-title">Thor</h4>
+                                    <p class="projet-desc">Réalisé sur Photoshop, ce visuel expérimente les modes de fusion et le travail des contrastes. L'intégration 
+                                        d'un texte à travers les zones claires de l'image crée un rendu graphique original et dynamique.</p>
+                                    <button type="button" class="projet-cta stretched-link" aria-label="Voir – Thor" onclick="openImg('images/graphicDesign.thor.jpg','Thor')">Voir</button>
+                                </div>
+                            </div>
+
+                            <div class="projet-card">
+                                <img class="projet-thumb" src="images/graphicDesign.petalTour.jpg" alt="" loading="lazy">
+                                <div class="projet-info">
+                                    <p class="projet-type">Affiche promotionnel</p>
+                                    <h4 class="projet-title">The Petal Tour</h4>
+                                    <p class="projet-desc">Réalisé sur Photoshop, Cette affiche imagine une tournée fictive intitulée “The Petal Tour”, 
+                                        en reprenant fidèlement la direction artistique de l’album Petal de Ariana Grande. Elle s’appuie sur ses codes visuels 
+                                        (typographie, monochrome, textures vintage) pour proposer un support promotionnel cohérent et crédible.</p>
+                                    <button type="button" class="projet-cta stretched-link" aria-label="Voir – The Petal Tour" onclick="openImg('images/graphicDesign.petalTour.jpg','The Petal Tour')">Voir</button>
+                                </div>
+                            </div>
+
+                            <div class="projet-card">
+                                <img class="projet-thumb" src="images/graphicDesign.magnum.jpg" alt="" loading="lazy">
+                                <div class="projet-info">
+                                    <p class="projet-type">bannière web</p>
+                                    <h4 class="projet-title">Magnum Blueberry Galaxy</h4>
+                                    <p class="projet-desc">Réalisée sur Photoshop, cette bannière publicitaire pour Magnum revisite la marque dans un univers spatial et futuriste. 
+                                        On y retrouve un travail de retouche basé sur les modes de fusion et des ajustements de couleurs</p>
+                                    <button type="button" class="projet-cta stretched-link" aria-label="Voir – Magnum Blueberry Galaxy" onclick="openImg('images/graphicDesign.magnum.jpg','Magnum Blueberry Galaxy')">Voir</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carr-controls">
+                        <button class="carr-btn carr-btn-prev" aria-label="Précédent">&#8592;</button>
+                        <div class="carr-dots"></div>
+                        <button class="carr-btn carr-btn-next" aria-label="Suivant">&#8594;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ── 2. Branding ── -->
+    <div class="cat-block" id="cat-branding">
+        <h3 class="cat-heading">
+            <button type="button" class="cat-header" id="btn-cat-branding" aria-expanded="false" aria-controls="panel-cat-branding">
+                <span class="cat-title">Branding</span>
+                <span class="cat-arrow" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
+                </svg>
+                </span>
+            </button>
+        </h3>
+        <div class="cat-panel" id="panel-cat-branding" role="region" aria-labelledby="btn-cat-branding">
+            <div class="cat-panel-inner">
+                <div class="carrousel-wrapper" role="region" aria-roledescription="carrousel" aria-label="Projets : Branding">
+                    <div class="carrousel-track-outer">
+                        <div class="carrousel-track">
+
+                            <div class="projet-card">
+                                <img class="projet-thumb" src="images/branding.coverKSP.jpg" alt="" loading="lazy">
+                                <div class="projet-info">
+                                    <p class="projet-type">Charte Graphique</p>
+                                    <h4 class="projet-title">KreativeSkatePark</h4>
+                                    <p class="projet-desc">Création de l'identité visuelle d'un skatepark mettant en avant l'expression artistique et l'interaction sociale. 
+                                        Le projet comprend la conception du logo, de la charte graphique, d'un univers visuel ainsi que plusieurs supports de communication (affiches, brochure, goodies).</p>
+                                    <button type="button" class="projet-cta stretched-link" aria-label="Voir le PDF – KreativeSkatePark (nouvel onglet)" onclick="openPDF('fichiers/branding.charteKSP.pdf','Charte graphique')">Voir le PDF</button>
+                                </div>
+                            </div>
+
+                            <div class="projet-card">
+                                <img class="projet-thumb" src="images/branding.coverResonna.jpg" alt="" loading="lazy">
+                                <div class="projet-info">
+                                    <p class="projet-type">Charte Graphique</p>
+                                    <h4 class="projet-title">Resonna</h4>
+                                    <p class="projet-desc">RESONNA est un festival fictif de danse contemporaine imaginé pour valoriser le patrimoine industriel du quartier Blin à Elbeuf. Le projet consiste à 
+                                        concevoir son identité globale, du nom à l'univers visuel et aux supports de communication, en s'inspirant du dialogue entre mouvement, mémoire et espace urbain.</p>
+                                    <button type="button" class="projet-cta stretched-link" aria-label="Voir le PDF – Resonna (nouvel onglet)" onclick="openPDF('fichiers/branding.charteResonna.pdf','Charte graphique')">Voir le PDF</button>
+                                </div>
+                            </div>
+
+                            <div class="projet-card">
+                                <img class="projet-thumb" src="images/branding.coverMascotte.jpg" alt="" loading="lazy">
+                                <div class="projet-info">
+                                    <p class="projet-type">Mascotte</p>
+                                    <h4 class="projet-title">Le Rire Médecin</h4>
+                                    <p class="projet-desc">Conception d'une mascotte pour L'association "Le Rire Médecin", incluant l'identité visuelle, le storytelling et la réflexion autour de son intégration dans l'univers hospitalier.</p>
+                                    <button type="button" class="projet-cta stretched-link" aria-label="Voir le PDF – Le Rire Médecin (nouvel onglet)" onclick="openPDF('fichiers/branding.lotiLaxolotl.pdf','Charte graphique')">Voir le PDF</button>
+                                </div>
+                            </div>
+
+                            <div class="projet-card">
+                                <img class="projet-thumb" src="images/branding.coverBale.jpg" alt="" loading="lazy">
+                                <div class="projet-info">
+                                    <p class="projet-type">Identité Visuelle</p>
+                                    <h4 class="projet-title">BALÉ</h4>
+                                    <p class="projet-desc">Création d'une petite identité visuelle pour une marque de café inspirée du massif du Balé en Éthiopie. 
+                                        Le logo s'appuie sur le loup d'Abyssinie, dont la forme évoque une graine de café, afin de proposer une identité simple, cohérente et distinctive.</p>
+                                    <button type="button" class="projet-cta stretched-link" aria-label="Voir le PDF - BALÉ (nouvel onglet)" onclick="openPDF('fichiers/branding.charteBale.pdf','Charte graphique')">Voir le PDF</button>
+                                </div>
+                            </div>
+
+                            <div class="projet-card">
+                                <img class="projet-thumb" src="images/branding.coverTicolas.jpg" alt="" loading="lazy">
+                                <div class="projet-info">
+                                    <p class="projet-type">communication</p>
+                                    <h4 class="projet-title">Ticolas ArtFoodStudio</h4>
+                                    <p class="projet-desc">Recommandation marketing réalisée en équipe pour Ticolas Market. Le projet comprend une analyse de la marque, 
+                                        la conception de personas, une identité visuelle, une maquette de site web et une stratégie réseaux sociaux. J'ai réalisé le spot radio notamment le montage audio.</p>
+                                    <div class="projet-ctas">
+                                        <button type="button" class="projet-cta stretched-link" aria-label="Voir le PDF - Ticolas ArtFoodStudio (nouvel onglet)" onclick="openPDF('fichiers/branding.ticolas.ArtFood.Studio.pdf')">Voir le PDF</button>
+                                        <button type="button" class="projet-cta" aria-label="Écouter le spot - Ticolas ArtFoodStudio" onclick="openAudio('fichiers/branding.spotRadio.mp3')">Écouter le spot</button>
+                                        <button type="button" class="projet-cta" aria-label="Note d'intention - Ticolas ArtFoodStudio (nouvel onglet)" onclick="openPDF('fichiers/branding.spotRadioTicolas.pdf')">Note d'intention</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carr-controls">
+                        <button class="carr-btn carr-btn-prev" aria-label="Précédent">&#8592;</button>
+                        <div class="carr-dots"></div>
+                        <button class="carr-btn carr-btn-next" aria-label="Suivant">&#8594;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ── 3. Audiovisuel ── -->
+    <div class="cat-block" id="cat-audio">
+        <h3 class="cat-heading">
+            <button type="button" class="cat-header" id="btn-cat-audio" aria-expanded="false" aria-controls="panel-cat-audio">
+                <span class="cat-title">Audiovisuel</span>
+                <span class="cat-arrow" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
+                </svg>
+                </span>
+            </button>
+        </h3>
+        <div class="cat-panel" id="panel-cat-audio" role="region" aria-labelledby="btn-cat-audio">
+            <div class="cat-panel-inner">
+                <div class="carrousel-wrapper" role="region" aria-roledescription="carrousel" aria-label="Projets : Audiovisuel">
+                    <div class="carrousel-track-outer">
+                        <div class="carrousel-track">
+
+                            <div class="projet-card">
+                                <img class="projet-thumb" src="images/audiovisuel.coverFilmNoir.jpg" alt="" loading="lazy">
+                                <div class="projet-info">
+                                    <p class="projet-type">Film Noir</p>
+                                    <h4 class="projet-title">Marlow &amp; The Lady</h4>
+                                    <p class="projet-desc">Court métrage réalisé en équipe autour de l'esthétique du film noir. Le projet explore les codes du genre : ambiance, lumière et narration visuelle.<br/><br/>
+                                        J'ai assuré la captation image et son lors du tournage, ainsi que le montage sur Adobe Premiere Pro. J'ai également travaillé sur l'ambiance sonore et la 
+                                        colorimétrie afin de renforcer l'identité visuelle et narrative du film.</p>
+                                    <button type="button" class="projet-cta stretched-link" aria-label="Voir sur Youtube – Marlow &amp; The Lady (nouvel onglet)" onclick="window.open('https://youtu.be/2h5Fr88ilZ4?si=FNRPKD5gFXFzye1K','_blank')">Voir sur Youtube</button>
+                                </div>
+                            </div>
+                            
+                            <div class="projet-card">
+                                <img class="projet-thumb" src="images/audiovisuel.coverGreenAwards.jpg" alt="" loading="lazy">
+                                <div class="projet-info">
+                                    <p class="projet-type">GreenAwards2026</p>
+                                    <h4 class="projet-title">La Poubelle ne mange pas n'importe quoi</h4>
+                                    <p class="projet-desc">Court métrage réalisé en équipe pour le festival Green Awards (#FilmeTaPoubelle), autour du tri des déchets. 
+                                        L'idée repose sur un parallèle entre un chien et une poubelle pour questionner les habitudes du quotidien de façon simple et visuelle.<br/><br/>
+                                    J'ai contribué à l'idée de base, à la réflexion des plans, à l'enregistrement sonore (en binôme), ainsi qu'au montage et à la colorimétrie sur Adobe Premiere Pro. 
+                                    Le projet adopte une approche réaliste et minimaliste pour faire passer un message écologique clair.</p>
+                                    <button type="button" class="projet-cta stretched-link" aria-label="Voir sur Youtube – La Poubelle ne mange pas n'importe quoi (nouvel onglet)" onclick="window.open('https://youtu.be/xDcUmwP9gF0?si=6Yrokof7EnYElcK4','_blank')">Voir sur Youtube</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carr-controls">
+                        <button class="carr-btn carr-btn-prev" aria-label="Précédent">&#8592;</button>
+                        <div class="carr-dots"></div>
+                        <button class="carr-btn carr-btn-next" aria-label="Suivant">&#8594;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ── 3.5 Photographie ── -->
+    <div class="cat-block" id="cat-photo">
+        <h3 class="cat-heading">
+            <button type="button" class="cat-header" id="btn-cat-photo" aria-expanded="false" aria-controls="panel-cat-photo">
+                <span class="cat-title">Photographie</span>
+                <span class="cat-arrow" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
+                </svg>
+                </span>
+            </button>
+        </h3>
+        <div class="cat-panel" id="panel-cat-photo" role="region" aria-labelledby="btn-cat-photo">
+            <div class="cat-panel-inner">
+                <div class="carrousel-wrapper" role="region" aria-roledescription="carrousel" aria-label="Projets : Photographie">
+                    <div class="carrousel-track-outer">
+                        <div class="carrousel-track">
+
+                            <!-- PROJET 1 : Missing -->
+                            <div class="projet-card">
+                                <img class="projet-thumb" src="images/2.1mat.jpg" alt="" loading="lazy">
+                                <div class="projet-info">
+                                    <p class="projet-type">Canon EOS 350D</p>
+                                    <h4 class="projet-title">Missing</h4>
+                                    <p class="projet-desc">Ce shooting photo explore une ambiance nocturne inspirée des 
+                                        univers paranormaux. À travers des jeux de lumière ciblés, des cadrages atypiques et une mise en scène en forêt, 
+                                        le projet brouille la frontière entre rêve et cauchemar. Le personnage, accompagné d'un vieil ordinateur portable, 
+                                        évolue dans un environnement à la fois inquiétant mais fascinant, où le spectateur est libre d'interpréter son histoire.<br><br>Moodboard à la fin</p>
+                                    <button type="button" class="projet-cta stretched-link" aria-label="Voir la galerie – Missing" onclick="openGallery('Missing', [
+                                'images/2.1mat.jpg',
+                                'images/2.2mat.jpg',
+                                'images/2.3mat.jpg',
+                                'images/2.4mat.jpg',
+                                'images/2.5mat.jpg',
+                                'images/2.6mat.jpg',
+                                'images/2.7mat.jpg',
+                                'images/2.8mat.jpg',
+                                'images/2.9mat.jpg',
+                                'images/2.10mat.jpg',
+                                'images/2.11mat.jpg',
+                                'images/2.12mat.moodboard.jpg',
+
+                            ])">Voir la galerie</button>
+                                </div>
+                            </div>
+
+                            <!-- PROJET 2 : Retouche Photo Concert -->
+                            <div class="projet-card">
+                                <img class="projet-thumb" src="images/1.2doja.jpg" alt="" loading="lazy">
+                                <div class="projet-info">
+                                    <p class="projet-type">Iphone 16 Pro</p>
+                                    <h4 class="projet-title">Retouche Photo Concert</h4>
+                                    <p class="projet-desc">Cette galerie regroupe des Photos issues de concerts, prises depuis les gradins avec un simple téléphone ou extraites de 
+                                        mes vidéos (captures d'écrans...). Des fichiers bruts souvent dégradés, flous ou mal exposés. L'objectif : démontrer qu'une retouche maîtrisée sous Lightroom (iphone) peut transformer 
+                                        radicalement une image, même la plus abîmée. Chaque photo est présentée en version originale puis retouchée, révélant tout le travail effectué. Du grain 
+                                        a volontairement été ajouté sur certains clichés pour unifier l'esthétique finale.</p>
+                                    <button type="button" class="projet-cta stretched-link" aria-label="Voir la galerie – Retouche Photo Concert" onclick="openGallery('Concert', [
+                                'images/1.1doja.jpg',
+                                'images/1.2doja.jpg',
+                                'images/1.3katy.png',
+                                'images/1.4katy.jpg',
+                                'images/1.5doja.jpg',
+                                'images/1.6doja.jpg',
+                                'images/1.7doja.jpg',
+                                'images/1.8doja.jpg',
+                                'images/1.9doja.jpg',
+                                'images/1.10doja.jpg',
+                                'images/1.11kesha.jpg',
+                                'images/1.12kesha.jpg',
+                                'images/1.13katy.jpg',
+                                'images/1.14katy.jpg',
+                                'images/1.15doja.jpg',
+                                'images/1.16doja.jpg',
+                                'images/1.17doja.jpg',
+                                'images/1.18doja.jpg',
+                                'images/1.19katy.jpg',
+                                'images/1.20katy.jpg',
+                            ])">Voir la galerie</button>
+                                </div>
+                            </div>
+
+
+                            <div class="projet-card">
+                                <img class="projet-thumb" src="images/3.1collection.jpg" alt="" loading="lazy">
+                                <div class="projet-info">
+                                    <p class="projet-type">Canon EOS 350D / Iphone 16 Pro</p>
+                                    <h4 class="projet-title">Collection</h4>
+                                    <p class="projet-desc">Une sélection de photos prises au fil du temps, sans thème particulier, juste des moments ou des cadres qui valaient la peine d'être gardés. Parfois à l'iPhone, 
+                                        parfois au Canon, toujours retouchées sur Lightroom pour leur donner le rendu que j'avais en tête.</p>
+                                    <button type="button" class="projet-cta stretched-link" aria-label="Voir la galerie – Collection" onclick="openGallery('Collection', [
+                                'images/3.1collection.jpg',
+                                'images/3.2collection.jpg',
+                                'images/3.3collection.jpg',
+                                'images/3.4collection.jpg',
+                                'images/3.5collection.jpg',
+                                'images/3.6collection.jpg',
+                                'images/3.7collection.jpg',
+                                'images/3.8collection.jpg',
+                                'images/3.9collection.jpg',
+                                'images/3.10collection.jpg',
+                            ])">Voir la galerie</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carr-controls">
+                        <button class="carr-btn carr-btn-prev" aria-label="Précédent">&#8592;</button>
+                        <div class="carr-dots"></div>
+                        <button class="carr-btn carr-btn-next" aria-label="Suivant">&#8594;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ── 4. Développement Web ── -->
+    <div class="cat-block" id="cat-web">
+        <h3 class="cat-heading">
+            <button type="button" class="cat-header" id="btn-cat-web" aria-expanded="false" aria-controls="panel-cat-web">
+                <span class="cat-title">Développement Web</span>
+                <span class="cat-arrow" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
+                </svg>
+                </span>
+            </button>
+        </h3>
+        <div class="cat-panel" id="panel-cat-web" role="region" aria-labelledby="btn-cat-web">
+            <div class="cat-panel-inner">
+                <div class="carrousel-wrapper" role="region" aria-roledescription="carrousel" aria-label="Projets : Développement Web">
+                    <div class="carrousel-track-outer">
+                        <div class="carrousel-track">
+
+                            <div class="projet-card">
+                                <img class="projet-thumb" src="images/devWeb.coverFoodtruck.jpg" alt="" loading="lazy">
+                                <div class="projet-info">
+                                    <p class="projet-type">HTML / CSS</p>
+                                    <h4 class="projet-title">Bagel Up</h4>
+                                    <p class="projet-desc">Ce site vitrine fictif pour un food truck de bagels présente l'enseigne, ses produits 
+                                        et ses informations pratiques. Ce projet m'a permis de développer mes bases en intégration web à travers 
+                                        la création d'interactions visuelles et d'une interface complète. Le site n'a cependant pas été conçu en 
+                                        responsive design.</p>
+                                    <div class="projet-ctas">
+                                        <button type="button" class="projet-cta stretched-link" aria-label="Voir le site – Bagel Up (nouvel onglet)" onclick="window.open('https://TitouanDerval.github.io/bagelup-foodtruck/index.html','')">Voir le site</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="projet-card">
+                                <img class="projet-thumb" src="images/devWeb.coverSport.jpg" alt="" loading="lazy">
+                                <div class="projet-info">
+                                    <p class="projet-type">PHP / MySQL / HTML / CSS</p>
+                                    <h4 class="projet-title">Inscription aux compétitions</h4>
+                                    <p class="projet-desc">Ce site de gestion de compétitions sportives permet l'inscription et la connexion des participants
+                                         et la gestion et consultation des résultats via une base de données. Le projet intègre des fonctionnalités 
+                                         dynamiques, différents rôles utilisateurs et des formulaires. Présenté à travers des captures d'écran accompagnées 
+                                         du code source.</p>
+                                    <div class="projet-ctas">
+                                        <button type="button" class="projet-cta stretched-link" aria-label="Voir les captures – Inscription aux compétitions (nouvel onglet)" onclick="openPDF('fichiers/devWeb.siteSport.pdf','Inscription aux compétitions')">Voir les captures</button>
+                                        <span class="projet-cta github-cta" onclick="event.stopPropagation(); window.open('https://github.com/TitouanDerval/site-PHP-BDD', '')">Voir les fichiers</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carr-controls">
+                        <button class="carr-btn carr-btn-prev" aria-label="Précédent">&#8592;</button>
+                        <div class="carr-dots"></div>
+                        <button class="carr-btn carr-btn-next" aria-label="Suivant">&#8594;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact">
+        <div class="contact-left">
+            <h2>Contact</h2>
+
+            <div class="contact-infos">
+                <a href="mailto:derval.titouan@gmail.com" class="contact-info-item">
+                    <span class="contact-info-label">Email</span>
+                    <span class="contact-info-value"><strong>derval.titouan@gmail.com</strong></span>
+                </a>
+                <a href="tel:+33750035249" class="contact-info-item">
+                    <span class="contact-info-label">Téléphone</span>
+                    <span class="contact-info-value"><strong>+33 7 50 03 52 49</strong></span>
+                </a>
+
+                <a href="fichiers/CV_Titouan.pdf" target="_blank" rel="noopener noreferrer" class="contact-info-item">
+                    <span class="contact-info-label">CV</span>
+                    <span class="contact-info-value"><strong>Ouvrir</strong><span class="visually-hidden"> (nouvel onglet)</span></span>
+                </a>
+
+                <a href="https://www.linkedin.com/in/titouan-derval/" target="_blank" rel="noopener noreferrer" class="contact-info-item">
+                    <span class="contact-info-label">LinkedIn</span>
+                    <span class="contact-info-value"><strong>titouan-derval</strong><span class="visually-hidden"> (nouvel onglet)</span></span>
+                </a>
+                <a href="https://www.instagram.com/titouan.drvl/" target="_blank" rel="noopener noreferrer" class="contact-info-item">
+                    <span class="contact-info-label">Instagram</span>
+                    <span class="contact-info-value"><strong>@titouan.drvl</strong><span class="visually-hidden"> (nouvel onglet)</span></span>
+                </a>
+            </div>
+        </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+    <div class="d-flex flex-column flex-lg-row flex-wrap justify-content-lg-between align-items-center gap-4 text-center">
+        <a href="#accueil" class="footer-logo">TITOUAN DERVAL</a>
+
+        <ul class="list-unstyled d-flex align-items-center gap-4 m-0 p-0">
+            <li>
+                <a href="https://www.instagram.com/titouan.drvl/" target="_blank" rel="noopener noreferrer" class="social">
+                    <img src="icones/instagram.svg" alt="Instagram">
+                    <span class="visually-hidden">(nouvel onglet)</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/titouan-derval/" target="_blank" rel="noopener noreferrer" class="social">
+                    <img src="icones/linkedin.svg" alt="LinkedIn">
+                    <span class="visually-hidden">(nouvel onglet)</span>
+                </a>
+            </li>
+        </ul>
+
+        <p class="footer-copy m-0">© 2026 Tous droits réservés - Titouan Derval</p>
+    </div>
+</footer>
+
+<!-- ================= LIGHTBOX IMAGE ================= -->
+<div id="lightbox-img" role="dialog" aria-modal="true" aria-labelledby="img-title">
+    <div class="lightbox-header">
+        <span class="lightbox-title" id="img-title"></span>
+        <button type="button" class="lightbox-close" aria-label="Fermer l'image" onclick="closeLightbox('lightbox-img')"><span aria-hidden="true">×</span></button>
+    </div>
+    <img id="img-frame" src="" alt="">
+</div>
+
+<!-- ================= LIGHTBOX AUDIO ================= -->
+<div id="lightbox-audio" role="dialog" aria-modal="true" aria-labelledby="audio-title">
+    <div class="lightbox-header">
+        <span class="lightbox-title" id="audio-title">Spot radio – Ticolas ArtFood Studio</span>
+        <button type="button" class="lightbox-close" aria-label="Fermer le lecteur audio" onclick="closeLightbox('lightbox-audio')"><span aria-hidden="true">×</span></button>
+    </div>
+    <audio id="audio-player" controls src="">
+        Votre navigateur ne supporte pas l'audio.
+    </audio>
+</div>
+
+<!-- ================= LIGHTBOX GALERIE PHOTO ================= -->
+<div id="lightbox-gallery" role="dialog" aria-modal="true" aria-labelledby="gallery-title">
+    <div class="gallery-header">
+        <span class="gallery-title" id="gallery-title"></span>
+        <span class="gallery-counter" aria-live="polite"></span>
+        <button type="button" class="lightbox-close" aria-label="Fermer la galerie" onclick="closeGallery()"><span aria-hidden="true">×</span></button>
+    </div>
+    <div class="gallery-main">
+        <button type="button" class="gallery-nav prev" aria-label="Photo précédente"><span aria-hidden="true">&#8592;</span></button>
+        <img id="gallery-img" src="" alt="">
+        <button type="button" class="gallery-nav next" aria-label="Photo suivante"><span aria-hidden="true">&#8594;</span></button>
+    </div>
+    <div class="gallery-thumbs" role="group" aria-label="Miniatures"></div>
+</div>
+
+
+
+<!-- ================= SCRIPTS ================= -->
+<script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+
+
+</html>
