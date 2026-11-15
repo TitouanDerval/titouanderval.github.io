@@ -246,17 +246,31 @@ header .navbar-nav .nav-link:hover::after { width: 100%; }
     line-height: 0.9;
 }
 
+.accueil-text h2 {
+    margin: 0;
+    font-family: var(--font-bold);
+    line-height: 0.9;
+}
+
+.accueil-text p:first-of-type {
+    font-size: clamp(1.5rem, 2.2vw, 1.5rem);
+    margin: 10px 0 0 0;
+    color: var(--text);
+    font-family: var(--font-bold);
+}
+
+.accueil-text p:nth-of-type(2) {
+    font-size: clamp(1rem, 2.2vw, 1.25rem);
+    margin: 0 0 50px 0;
+    font-style: italic;
+    color: var(--text);
+    font-family: var(--font-light);
+}
+
 /* Pas d'animation pour les personnes qui réduisent les mouvements */
 @media (prefers-reduced-motion: reduce) {
     header .navbar-brand:hover,
     header .navbar-brand:focus-visible { animation: none; }
-}
-
-.accueil-text p {
-    font-size: clamp(1rem, 2.2vw, 1.5rem);
-    margin: 18px 0 30px;
-    color: var(--text);
-    font-family: var(--font-bold);
 }
 
 /* Bouton principal */
